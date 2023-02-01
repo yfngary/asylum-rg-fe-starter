@@ -24,7 +24,7 @@ import {
         one they made in the different tab, and they'll
         be able to seamlessly resume.
 
-            -- Mack
+            -- Labs Staff
 
       ------------------------------------------------------
 */
