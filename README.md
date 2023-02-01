@@ -27,5 +27,8 @@
 
 ## Resources
 
-[Deployed Site with all tickets complete](https://asylum-rg-fe.vercel.app/) 
-[Sample Case Data for last 4 years]()
+The following deployed site shows your exact deliverable and what you should be building: 
+- [Deployed Site](https://asylum-rg-fe.vercel.app/)
+
+This is what the raw data looks like from HRF:
+- [Sample Case Data](https://github.com/BloomTech-Labs/asylum-rg-fe-starter/blob/main/src/data/COW2021001887-I589Data.csv)
