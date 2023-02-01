@@ -22,15 +22,15 @@ Your styles should be added to `RenderLandingPage.less`.
 
 Your job is to finish building the landing page for this application. To build this, you will add to the existing React component structure and alter styles to match the provided reference on the deployed site. 
 
-You should make sure: 
+You must: 
 
-1. You are focusing on making the landing page for the browser. You can adjust the styles for mobile and tablet in the stretch goals of this project after you complete all 3 tickets.
+1. Focus on making the landing page for the browser. You can adjust the styles for mobile and tablet in the stretch goals of this project after you complete all 3 tickets.
 
-2. You use the exact imports on the `RenderLandingPage.jsx` file. This way you have the same photos and libraries available to you as the deployed site. 
+2. Use the exact imports on the `RenderLandingPage.jsx` file. This way you have the same photos and libraries available to you as the deployed site. 
 
-3. You are not using a node version higher than 16.16.0. If you are, you can use `nvm` (for Mac) or `nvm-windows` to easily toggle your node versions in directories. 
+3. Do not use a Node version higher than 16.16.0. If you are, you can use `nvm` (for Mac) or `nvm-windows` to easily toggle your node versions in directories. 
 
-4. It is important to make this project your own, but keep the integrity of the main files so that the app can render and work when you wish to present it. 
+4. Make this project your own, but keep the integrity of the main files so that the app can render and work when you wish to present it. 
 
 ## Deliverables 
 
