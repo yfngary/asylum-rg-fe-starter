@@ -3,7 +3,7 @@
 To begin work on this ticket, make sure you have finished: 
 1. Getting locally setup. 
 2. Completed the onboarding module on Canvas. 
-3. Complete Build Sprint 1. 
+3. Completed Build Sprint 1. 
 
 ### Objective
 
