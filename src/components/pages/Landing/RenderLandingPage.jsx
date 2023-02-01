@@ -1,7 +1,8 @@
 import React from 'react';
-import GrantRatesByOfficeImg from '../../../styles/Images/bar-graph-no-text.png';
-import GrantRatesByNationalityImg from '../../../styles/Images/pie-chart-no-text.png';
-import GrantRatesOverTimeImg from '../../../styles/Images/line-graph-no-text.png';
+// ADD IMPORTS BACK FOR GRAPHS SECTION
+// import GrantRatesByOfficeImg from '../../../styles/Images/bar-graph-no-text.png';
+// import GrantRatesByNationalityImg from '../../../styles/Images/pie-chart-no-text.png';
+// import GrantRatesOverTimeImg from '../../../styles/Images/line-graph-no-text.png';
 import HrfPhoto from '../../../styles/Images/paper-stack.jpg';
 import '../../../styles/RenderLandingPage.less';
 import { Button } from 'antd';
@@ -30,32 +31,8 @@ function RenderLandingPage(props) {
         </div>
       </div>
 
-      <div className="graphs-section">
-        <div className="grant-rates-by-office-graph-container">
-          <img
-            src={GrantRatesByOfficeImg}
-            alt="Grant Rates By Office Graph"
-            className="gr-office-img"
-          />
-          <p>Search Grant Rates By Office</p>
-        </div>
-        <div className="grant-rates-by-nationality-container">
-          <img
-            src={GrantRatesByNationalityImg}
-            alt="Grant Rates By Nationality Graph"
-            className="gr-nationality-img"
-          />
-          <p>Search Grant Rates By Nationality</p>
-        </div>
-        <div className="grant-rates-over-time-container">
-          <img
-            src={GrantRatesOverTimeImg}
-            alt="Grant Rates Over Time Graph"
-            className="gr-overtime-img"
-          />
-          <p>Search Grant Rates Over Time</p>
-        </div>
-      </div>
+      {/* Graphs Section: Add code here for the graphs section for your first ticket */}
+      {/* <div className="graphs-section"> */}
       <div className="view-more-data-btn-container">
         <Button
           type="default"
@@ -82,45 +59,9 @@ function RenderLandingPage(props) {
           </h3>
         </div>
       </div>
-
-      <div className="bottom-section">
-        <h1>Systemic Disparity Insights</h1>
-        <div className="data-container">
-          <div className="first-data-point-container">
-            <h2>36%</h2>
-            <h3>
-              By the end of the Trump administration, the average asylum office
-              grant rate had fallen 44 percent in fiscal year 2016 to 28 percent
-              in fiscal year 2020.
-            </h3>
-          </div>
-          <div className="second-data-point-container">
-            <h2>5%</h2>
-            <h3>
-              The New York asylum office grant rate dropped to 5 percent in
-              fiscal year 2020
-            </h3>
-          </div>
-          <div className="third-data-point-container">
-            <h2>6x Lower</h2>
-            <h3>
-              Between fiscal year 2017 and 2020, the New York asylum office’s
-              average grant rate was six times lower than the San Francisco
-              asylum office
-            </h3>
-          </div>
-        </div>
-        <a href="https://www.humanrightsfirst.org/resource/uscis-records-reveal-systemic-disparities-asylum-decisions">
-          <div className="read-more-btn">
-            <Button
-              type="default"
-              style={{ backgroundColor: '#404C4A', color: '#FFFFFF' }}
-            >
-              Read More
-            </Button>
-          </div>
-        </a>
-
+      <div>
+        {/* Bottom Section: Add code here for the graphs section for your first ticket */}
+        {/* <div className="bottom-section">*/}
         <p onClick={() => scrollToTop()} className="back-to-top">
           Back To Top ^
         </p>
