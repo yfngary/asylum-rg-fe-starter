@@ -20,6 +20,15 @@ You must inspect the code in `src/components/pages/DataVisualizations`, `src/dat
 
 Widely-used applications use robust APIs to get data. It is your job to integrate the provided API into this application and ensure everything works properly after integration. 
 
+> API LINK:
+
+Endpoints: 
+
+- Fiscal Year Data: `/fiscalYear`
+- Citizenship Data: `/citizenship`
+
+If you look at `src/data/text_data.json`, there are 2 JSON blobs, 1 for fiscal year data and the other for citizenship data. Make sure to use the correct data for each data viz. 
+
 You must: 
 
 1. Ensure everything is working properly after the API integration. Components should render correctly and show the data the same way they did before. 
