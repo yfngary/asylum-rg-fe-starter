@@ -2,7 +2,7 @@
 
 To begin work on this ticket, make sure you have finished: 
 1. Getting locally setup. 
-2. Completed the onboarding module on Canvas. 
+2. Completed the `Onboarding Module` in your course. 
 
 ### Objective
 
@@ -34,8 +34,8 @@ You must:
 
 ## Deliverables 
 
-Submit the following on Canvas: 
+Submit the following in your course: 
 
 - Link to your forked repo with the added code for the landing page
-- Link to a Loom video answering the prompt in the Canvas assignment
+- Link to a Loom video answering the prompt in the `Submit Your Deliverables` assignment in your course
 
