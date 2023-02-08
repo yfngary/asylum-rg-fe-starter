@@ -24,7 +24,7 @@ Widely-used applications use robust APIs to get data. It is your job to integrat
 
 Endpoints: 
 
-- Fiscal Year Data: `/fiscalYearSummary`
+- Fiscal Year Data: `/fiscalSummary`
 - Citizenship Data: `/citizenshipSummary`
 
 If you look at `src/data/text_data.json`, there are 2 JSON blobs, 1 for fiscal year data and the other for citizenship data. Make sure to use the correct data for each data viz. 
