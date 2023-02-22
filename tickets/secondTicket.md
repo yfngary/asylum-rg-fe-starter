@@ -9,7 +9,7 @@ To begin work on this ticket, make sure you have finished:
 
 Deliver the following: 
 
-- Graphs page that matches the graphs page on the [deployed site](https://asylum-rg-fe.vercel.app/graphs). 
+- Graphs page that matches the graphs page on the [screenshot](https://raw.githubusercontent.com/BloomTech-Labs/asylum-rg-fe-starter/main/tickets/examples/graphs-main.png). 
 - While you may make small changes to styles, the page should mostly match what is provided. 
 - Currently, there is an error stopping the graphs from rendering. You must debug the error and ensure it showcases the graphs as shown on the deployed site. 
 
