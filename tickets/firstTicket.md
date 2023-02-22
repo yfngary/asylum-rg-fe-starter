@@ -8,7 +8,7 @@ To begin work on this ticket, make sure you have finished:
 
 Deliver the following: 
 
-- Landing page that matches the landing page on the [screenshot](./examples/landing-page.png). 
+- Landing page that matches the landing page on the [screenshot](https://raw.githubusercontent.com/BloomTech-Labs/asylum-rg-fe-starter/main/tickets/examples/landing-page.png). 
 - While you may make small changes to styles, the page should mostly match what is provided. 
 
 ### Relevant Files
