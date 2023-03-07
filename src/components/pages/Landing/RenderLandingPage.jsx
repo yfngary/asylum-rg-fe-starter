@@ -1,8 +1,8 @@
 import React from 'react';
 // ADD IMPORTS BACK FOR GRAPHS SECTION
-// import GrantRatesByOfficeImg from '../../../styles/Images/bar-graph-no-text.png';
-// import GrantRatesByNationalityImg from '../../../styles/Images/pie-chart-no-text.png';
-// import GrantRatesOverTimeImg from '../../../styles/Images/line-graph-no-text.png';
+import GrantRatesByOfficeImg from '../../../styles/Images/bar-graph-no-text.png';
+import GrantRatesByNationalityImg from '../../../styles/Images/pie-chart-no-text.png';
+import GrantRatesOverTimeImg from '../../../styles/Images/line-graph-no-text.png';
 import HrfPhoto from '../../../styles/Images/paper-stack.jpg';
 import '../../../styles/RenderLandingPage.less';
 import { Button } from 'antd';
@@ -33,6 +33,32 @@ function RenderLandingPage(props) {
 
       {/* Graphs Section: Add code here for the graphs section for your first ticket */}
       {/* <div className="graphs-section"> */}
+      <div className="graphs-section">
+        <div className="graph-section">
+          <img
+            src={GrantRatesByOfficeImg}
+            className="graph-images"
+            alt="grant rates by office"
+          />
+          <h4>Search Grant Rates By Office</h4>
+        </div>
+        <div className="graph-section">
+          <img
+            src={GrantRatesByNationalityImg}
+            className="graph-images"
+            alt="grant rates by nationality"
+          />
+          <h4>Search Grant Rates By Nationality</h4>
+        </div>
+        <div className="graph-section">
+          <img
+            src={GrantRatesOverTimeImg}
+            className="graph-images"
+            alt="grant rates over time"
+          />
+          <h4>Search Grant Rates Over Time</h4>
+        </div>
+      </div>
       <div className="view-more-data-btn-container">
         <Button
           type="default"
@@ -62,8 +88,37 @@ function RenderLandingPage(props) {
       <div>
         {/* Bottom Section: Add code here for the graphs section for your first ticket */}
         {/* <div className="bottom-section">*/}
+        <div className="bottom-section">
+          <h2>Systemic Disparity Insights</h2>
+          <div className="paragraph-section">
+            <div className="individual-paragraphs">
+              <h2>36%</h2>
+              <p>
+                By the end of the Trump administration, the average
+                <br /> asylum office grant rate had fallen 36 percent from an
+                <br /> average of 44 percent in fiscal year 2016 to 28 percent
+                <br /> in fiscal year 2020.
+              </p>
+            </div>
+            <div className="individual-paragraphs">
+              <h2>5%</h2>
+              <p>
+                The New York asylum office grant rate dropped to 5<br /> percent
+                in fiscal year 2020.
+              </p>
+            </div>
+            <div className="individual-paragraphs">
+              <h2>6x Lower</h2>
+              <p>
+                Between fiscal year 2017 and 2020, the New York
+                <br /> asylum office's average grant rate was six times lower
+                <br /> than the San Francisco asylum office.
+              </p>
+            </div>
+          </div>
+        </div>
         <p onClick={() => scrollToTop()} className="back-to-top">
-          Back To Top ^
+          Back To Top <br />^
         </p>
       </div>
     </div>
