@@ -53,7 +53,7 @@ function Table(props) {
             <TableRow
               key={idx}
               row={row}
-              rowId={idx}
+              rowId={idx * 2}
               tableWidth={tableWidth}
               rowHeight={rowHeight}
               columns={columns}

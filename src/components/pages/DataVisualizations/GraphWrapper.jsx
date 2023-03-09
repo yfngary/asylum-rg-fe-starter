@@ -51,6 +51,26 @@ function GraphWrapper(props) {
     }
   }
   function updateStateWithNewData(years, view, office, stateSettingCallback) {
+    // const yearResults = test_data.yearResults;
+    // let yearTestData = yearResults.map(d => {
+    //   d.fiscal_year = years;
+    // });
+    stateSettingCallback(view, office, test_data);
+    // axios
+    //     .get(test_data, {
+    //       // mock URL, can be simply replaced by `${Real_Production_URL}/summary` in prod!
+    //       params: {
+    //         from: years[0],
+    //         to: years[1],
+    //       },
+    //     })
+    //     .then(result => {
+    //       console.log(result);
+    //       stateSettingCallback(view, office, test_data); // <-- `test_data` here can be simply replaced by `result.data` in prod!
+    //     })
+    //     .catch(err => {
+    //       console.error(err);
+    //     });
     /*
           _                                                                             _
         |                                                                                 |
@@ -74,36 +94,38 @@ function GraphWrapper(props) {
     */
 
     if (office === 'all' || !office) {
-      axios
-        .get(process.env.REACT_APP_API_URI, {
-          // mock URL, can be simply replaced by `${Real_Production_URL}/summary` in prod!
-          params: {
-            from: years[0],
-            to: years[1],
-          },
-        })
-        .then(result => {
-          stateSettingCallback(view, office, test_data); // <-- `test_data` here can be simply replaced by `result.data` in prod!
-        })
-        .catch(err => {
-          console.error(err);
-        });
+      stateSettingCallback(view, office, test_data);
+      // axios
+      //   .get(process.env.REACT_APP_API_URI, {
+      //     // mock URL, can be simply replaced by `${Real_Production_URL}/summary` in prod!
+      //     params: {
+      //       from: years[0],
+      //       to: years[1],
+      //     },
+      //   })
+      //   .then(result => {
+      //     stateSettingCallback(view, office, test_data); // <-- `test_data` here can be simply replaced by `result.data` in prod!
+      //   })
+      //   .catch(err => {
+      //     console.error(err);
+      //   });
     } else {
-      axios
-        .get(process.env.REACT_APP_API_URI, {
-          // mock URL, can be simply replaced by `${Real_Production_URL}/summary` in prod!
-          params: {
-            from: years[0],
-            to: years[1],
-            office: office,
-          },
-        })
-        .then(result => {
-          stateSettingCallback(view, office, test_data); // <-- `test_data` here can be simply replaced by `result.data` in prod!
-        })
-        .catch(err => {
-          console.error(err);
-        });
+      stateSettingCallback(view, office, test_data);
+      // axios
+      //   .get(process.env.REACT_APP_API_URI, {
+      //     // mock URL, can be simply replaced by `${Real_Production_URL}/summary` in prod!
+      //     params: {
+      //       from: years[0],
+      //       to: years[1],
+      //       office: office,
+      //     },
+      //   })
+      //   .then(result => {
+      //     stateSettingCallback(view, office, test_data); // <-- `test_data` here can be simply replaced by `result.data` in prod!
+      //   })
+      //   .catch(err => {
+      //     console.error(err);
+      //   });
     }
   }
   const clearQuery = (view, office) => {
